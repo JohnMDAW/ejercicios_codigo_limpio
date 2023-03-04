@@ -1,6 +1,6 @@
-function s(evt) {
-    var l, i, sw, b, debeSw, d, swC = 0;
-    l = document.getElementById("id01");
+function sort(evt) {
+    var listaPaises, i, sw, b, debeSw, d, swC = 0;
+    listaPaises = document.getElementById("id01");
     sw = true;
     //Define la dección de la ordenación, ascendente, descendente 
     d = evt.currentTarget.ord; //asc o desc
